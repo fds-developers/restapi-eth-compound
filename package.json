@@ -1,0 +1,21 @@
+{
+  "name": "api-guide-example",
+  "version": "1.0.0",
+  "description": "Sample code for building your own REST API calling the Compound Ethereum smart contract API. Made with Express.js, Infura, Web3.js and local blockchain sandbox provided by Ganache-cli",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "web3": "^1.2.8"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.9.1"
+  }
+}
